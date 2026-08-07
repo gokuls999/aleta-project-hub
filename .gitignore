@@ -1,0 +1,24 @@
+# ---- secrets & environment (NEVER commit) ----
+/config/config.php
+/config/config.production.php
+.env
+**/.env
+
+# ---- data dumps (contain real project / staff data) ----
+/sql/deploy_full.sql
+
+# ---- dev/test scripts with hardcoded test passwords ----
+/tools/smoke.php
+/tools/verify_perms.php
+/tools/verify_journals.php
+/tools/verify_theme.php
+/tools/verify_ui.php
+
+# ---- dependencies / build ----
+/node_modules/
+/vendor/
+
+# ---- OS / editor / logs ----
+.DS_Store
+Thumbs.db
+*.log

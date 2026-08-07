@@ -1,0 +1,5 @@
+# Normalize line endings; force LF for server-side (Linux/GoDaddy) files.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary
