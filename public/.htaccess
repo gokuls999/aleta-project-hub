@@ -1,0 +1,7 @@
+# This is a plain PHP app, not a Ruby/Node/Python app.
+# Stop Phusion Passenger from grabbing this "public" docroot.
+PassengerEnabled off
+DirectoryIndex index.php
+
+# Send everything to index.php only if you later want clean URLs (off by default).
+# (No rewrite needed now — the app uses real .php filenames.)
