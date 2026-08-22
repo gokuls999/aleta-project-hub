@@ -18,6 +18,9 @@
 /node_modules/
 /vendor/
 
+# ---- local kickstart notes (may contain deploy passwords) ----
+/notes.md
+
 # ---- OS / editor / logs ----
 .DS_Store
 Thumbs.db
